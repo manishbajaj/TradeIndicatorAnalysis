@@ -1,0 +1,221 @@
+
+Following stocks are new BUY:
+| Symbol   | ADX          |
+|----------+--------------|
+| ABBV     | Strong Trend |
+| KO       | Weak Trend   |
+| XLV      | Weak Trend   |
+
+Following stocks are new Sell:
+| Symbol   | ADX          |
+|----------+--------------|
+| SMH      | Strong Trend |
+| AMD      | Strong Trend |
+| AMAT     | Strong Trend |
+| GOLD     | Strong Trend |
+| GDXJ     | Strong Trend |
+| XME      | Strong Trend |
+| SOL      | Weak Trend   |
+| STEM     | Weak Trend   |
+| M        | Weak Trend   |
+| KLAC     | Weak Trend   |
+| MCHP     | Weak Trend   |
+| PYPL     | Weak Trend   |
+| PTRA     | Weak Trend   |
+| HMC      | Weak Trend   |
+| ROST     | Weak Trend   |
+| CHPT     | Weak Trend   |
+| TSLA     | Weak Trend   |
+| SONY     | Weak Trend   |
+| AFRM     | Weak Trend   |
+| DKNG     | Weak Trend   |
+| NVDA     | Weak Trend   |
+| INTC     | Weak Trend   |
+| U        | Weak Trend   |
+| LCID     | Weak Trend   |
+| CSCO     | Weak Trend   |
+| HPQ      | Weak Trend   |
+| NXPI     | Weak Trend   |
+| HYZN     | Weak Trend   |
+| F        | Weak Trend   |
+| XLK      | Weak Trend   |
+
+Following stocks are no longer BUY:
+['CAH' 'CB' 'ENB' 'EOG' 'HAL' 'IYE' 'JNJ' 'MPC' 'MT' 'NVS' 'OGN' 'OIH'
+ 'SLB' 'UGI' 'XLE' 'XOM' 'XOP']
+
+Following stocks are no longer SELL:
+['BABA' 'GLW' 'MRNA' 'RBLX' 'SHOP' 'SNAP' 'UAL']
+
+
+Following stocks oversold(RSI <25):
+['SHOP', 'TSM']
+
+Following stocks overbrought(RSI >75)::
+[]
+
+Rule Engine Summary:
+Buy Count: 10
+Sell Count: 36
+Neutral Count: 81
+
+Rule Engine Output:
+| Symbol   | Trend       | Rule        | ADX          |
+|----------+-------------+-------------+--------------|
+| UGI      | BUY         | BUY         | Strong Trend |
+| AAPL     | BUY         | BUY         | Weak Trend   |
+| GS       | NEUTRAL     | BUY         | Weak Trend   |
+| ENB      | NEUTRAL     | BUY         | Strong Trend |
+| CRWD     | BUY         | NEUTRAL     | Weak Trend   |
+| EDIT     | BUY         | NEUTRAL     | Weak Trend   |
+| RBLX     | BUY         | NEUTRAL     | Weak Trend   |
+| BA       | BUY         | NEUTRAL     | Weak Trend   |
+| BABA     | BUY         | NEUTRAL     | Strong Trend |
+| TAL      | BUY         | NEUTRAL     | Weak Trend   |
+| PLTR     | BUY         | NEUTRAL     | Weak Trend   |
+| SOFI     | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| HPE      | NEUTRAL     | NEUTRAL     | Strong Trend |
+| XRT      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| CLF      | NEUTRAL     | NEUTRAL     | Strong Trend |
+| GM       | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| AXP      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| META     | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| OIH      | NEUTRAL     | NEUTRAL     | Strong Trend |
+| DOW      | NEUTRAL     | NEUTRAL     | Strong Trend |
+| LNC      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| GDX      | NEUTRAL     | NEUTRAL     | Strong Trend |
+| HD       | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| XLI      | NEUTRAL     | NEUTRAL     | Strong Trend |
+| WFC      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| WMT      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| NVS      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| XLF      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| KRE      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| KBE      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| DIS      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| V        | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| CB       | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| NRG      | NEUTRAL     | NEUTRAL     | Strong Trend |
+| SPY      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| MSFT     | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| CAH      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| NIO      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| IBM      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| MCD      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| BYND     | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| WU       | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| VNQ      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| IYR      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| ITB      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| IT       | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| DFS      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| FISV     | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| PRU      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| MCO      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| MET      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| XHB      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| XOM      | SELL        | NEUTRAL     | Weak Trend   |
+| XOP      | SELL        | NEUTRAL     | Strong Trend |
+| MPC      | SELL        | NEUTRAL     | Strong Trend |
+| EOG      | SELL        | NEUTRAL     | Strong Trend |
+| XLE      | SELL        | NEUTRAL     | Strong Trend |
+| IYE      | SELL        | NEUTRAL     | Strong Trend |
+| CF       | SELL        | NEUTRAL     | Weak Trend   |
+| HAL      | SELL        | NEUTRAL     | Strong Trend |
+| MOS      | SELL        | NEUTRAL     | Weak Trend   |
+| JNJ      | STRONG_BUY  | NEUTRAL     | Weak Trend   |
+| BIDU     | STRONG_BUY  | NEUTRAL     | Strong Trend |
+| SPCE     | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| MS       | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| WDC      | STRONG_SELL | NEUTRAL     | Strong Trend |
+| UAL      | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| CAT      | STRONG_SELL | NEUTRAL     | Strong Trend |
+| COF      | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| CTSH     | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| STT      | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| C        | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| MT       | STRONG_SELL | NEUTRAL     | Strong Trend |
+| DE       | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| XLB      | STRONG_SELL | NEUTRAL     | Strong Trend |
+| DAL      | STRONG_SELL | NEUTRAL     | Strong Trend |
+| HBM      | STRONG_SELL | NEUTRAL     | Strong Trend |
+| SQ       | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| SLB      | STRONG_SELL | NEUTRAL     | Strong Trend |
+| GE       | STRONG_SELL | NEUTRAL     | Strong Trend |
+| JPM      | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| LYB      | STRONG_SELL | NEUTRAL     | Strong Trend |
+| BAC      | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| FIS      | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| QCOM     | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| SHOP     | STRONG_SELL | OVERSOLD    | Strong Trend |
+| TSM      | STRONG_SELL | OVERSOLD    | Weak Trend   |
+| OGN      | SELL        | SELL        | Weak Trend   |
+| KMX      | STRONG_SELL | SELL        | Weak Trend   |
+| NFLX     | STRONG_SELL | SELL        | Weak Trend   |
+| AMZN     | STRONG_SELL | SELL        | Weak Trend   |
+| XTL      | STRONG_SELL | SELL        | Weak Trend   |
+| XLY      | STRONG_SELL | SELL        | Weak Trend   |
+| VTRS     | STRONG_SELL | SELL        | Weak Trend   |
+| LMND     | STRONG_SELL | SELL        | Weak Trend   |
+| ACN      | STRONG_SELL | SELL        | Weak Trend   |
+| QQQ      | STRONG_SELL | SELL        | Weak Trend   |
+| PII      | STRONG_SELL | SELL        | Weak Trend   |
+| GLW      | STRONG_SELL | SELL        | Weak Trend   |
+| TWTR     | STRONG_SELL | SELL        | Weak Trend   |
+| SNAP     | STRONG_SELL | SELL        | Weak Trend   |
+| S        | STRONG_SELL | SELL        | Weak Trend   |
+| VZ       | BUY         | STRONG_BUY  | Weak Trend   |
+| CLX      | BUY         | STRONG_BUY  | Strong Trend |
+| MRNA     | BUY         | STRONG_BUY  | Weak Trend   |
+| IBB      | BUY         | STRONG_BUY  | Weak Trend   |
+| SBUX     | BUY         | STRONG_BUY  | Weak Trend   |
+| PG       | BUY         | STRONG_BUY  | Weak Trend   |
+| SPGI     | BUY         | STRONG_BUY  | Weak Trend   |
+| XLP      | BUY         | STRONG_BUY  | Weak Trend   |
+| ORCL     | BUY         | STRONG_BUY  | Weak Trend   |
+| AMGN     | STRONG_BUY  | STRONG_BUY  | Weak Trend   |
+| T        | STRONG_BUY  | STRONG_BUY  | Strong Trend |
+| CI       | STRONG_BUY  | STRONG_BUY  | Strong Trend |
+| XLU      | STRONG_BUY  | STRONG_BUY  | Strong Trend |
+| KO       | STRONG_BUY  | STRONG_BUY  | Weak Trend   |
+| PNW      | STRONG_BUY  | STRONG_BUY  | Weak Trend   |
+| UNH      | STRONG_BUY  | STRONG_BUY  | Strong Trend |
+| ABBV     | STRONG_BUY  | STRONG_BUY  | Strong Trend |
+| XLV      | STRONG_BUY  | STRONG_BUY  | Weak Trend   |
+| PFE      | STRONG_BUY  | STRONG_BUY  | Weak Trend   |
+| CHPT     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| HYZN     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| RMO      | STRONG_SELL | STRONG_SELL | Strong Trend |
+| GOOG     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| CURI     | STRONG_SELL | STRONG_SELL | Strong Trend |
+| AMD      | STRONG_SELL | STRONG_SELL | Strong Trend |
+| AMAT     | STRONG_SELL | STRONG_SELL | Strong Trend |
+| NXPI     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| HPQ      | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| CSCO     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| LCID     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| EPAM     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| U        | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| INTC     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| NVDA     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| DKNG     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| AFRM     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| SONY     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| SMH      | STRONG_SELL | STRONG_SELL | Strong Trend |
+| MU       | STRONG_SELL | STRONG_SELL | Strong Trend |
+| F        | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| ROST     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| GPS      | STRONG_SELL | STRONG_SELL | Strong Trend |
+| HMC      | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| PTRA     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| XME      | STRONG_SELL | STRONG_SELL | Strong Trend |
+| PYPL     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| MCHP     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| KLAC     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| M        | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| GDXJ     | STRONG_SELL | STRONG_SELL | Strong Trend |
+| GOLD     | STRONG_SELL | STRONG_SELL | Strong Trend |
+| STEM     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| SOL      | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| TSLA     | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| XLK      | STRONG_SELL | STRONG_SELL | Weak Trend   |
