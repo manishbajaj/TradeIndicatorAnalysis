@@ -1,0 +1,197 @@
+
+Following stocks are new BUY:
+| Symbol     | ADX          |
+|------------+--------------|
+| MINDACORP  | Strong Trend |
+| HEROMOTOCO | Strong Trend |
+| SRTRANSFIN | Strong Trend |
+| TORNTPHARM | Strong Trend |
+| COROMANDEL | Weak Trend   |
+| ADANIENT   | Weak Trend   |
+| NESTLEIND  | Weak Trend   |
+| UBL        | Weak Trend   |
+| HINDUNILVR | Weak Trend   |
+| GODREJCP   | Weak Trend   |
+| AMBUJACEM  | Weak Trend   |
+| PAGEIND    | Weak Trend   |
+| EIDPARRY   | Weak Trend   |
+
+Following stocks are new Sell:
+| Symbol     | ADX          |
+|------------+--------------|
+| KIRLFER    | Strong Trend |
+| IEX        | Strong Trend |
+| VOLTAS     | Strong Trend |
+| ALKYLAMINE | Weak Trend   |
+| RELIANCE   | Weak Trend   |
+| MINDTREE   | Weak Trend   |
+
+Following stocks are no longer BUY:
+['BAJAJ_AUTO' 'BRITANNIA' 'CIPLA' 'KOTAKBANK' 'MARUTI' 'RELIANCE'
+ 'SUNPHARMA']
+
+Following stocks are no longer SELL:
+['ANDHRAPET' 'ASIANPAINT' 'BANKBARODA' 'CESC' 'CROMPTON' 'EXIDEIND' 'FSL'
+ 'GODREJCP' 'GODREJPROP' 'GRASIM' 'HCLTECH' 'HINDPETRO' 'IDFC' 'INDIACEM'
+ 'INFY' 'JINDALSTEL' 'JUBLFOOD' 'LUXIND' 'NMDC' 'PEL' 'SHREECEM'
+ 'TATACHEM' 'TATASTEEL' 'TECHM' 'TNPETRO' 'UBL' 'ULTRACEMCO' 'UPL'
+ 'UTIAMC' 'WIPRO' 'ZEEL']
+
+
+Following stocks oversold(RSI <25):
+[]
+
+Following stocks overbrought(RSI >75)::
+['BOSCHLTD', 'BRITANNIA']
+
+Rule Engine Summary:
+Buy Count: 15
+Sell Count: 10
+Neutral Count: 94
+
+Rule Engine Output:
+| Symbol     | Trend       | Rule        | ADX          |
+|------------+-------------+-------------+--------------|
+| JUBLFOOD   | BUY         | BUY         | Weak Trend   |
+| AUROPHARMA | BUY         | BUY         | Weak Trend   |
+| BHARTIARTL | BUY         | BUY         | Weak Trend   |
+| INDUSINDBK | BUY         | BUY         | Weak Trend   |
+| NAUKRI     | BUY         | NEUTRAL     | Weak Trend   |
+| SUZLON     | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| ABB        | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| SIEMENS    | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| PAYTM      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| ADANIGREEN | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| BIOCON     | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| HINDZINC   | NEUTRAL     | NEUTRAL     | Strong Trend |
+| OIL        | NEUTRAL     | NEUTRAL     | Strong Trend |
+| BAJAJHLDNG | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| GODREJPROP | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| BPCL       | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| LUXIND     | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| TATACONSUM | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| CESC       | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| ADANIPORTS | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| KRBL       | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| HINDPETRO  | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| BAJFINANCE | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| ZEEL       | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| GLENMARK   | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| PPL        | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| SUNTV      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| MOTILALOFS | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| DMART      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| SEQUENT    | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| ADANIPOWER | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| EPL        | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| KEC        | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| UPL        | NEUTRAL     | NEUTRAL     | Strong Trend |
+| POWERGRID  | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| HCLTECH    | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| BHEL       | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| LAURUSLABS | NEUTRAL     | NEUTRAL     | Strong Trend |
+| JINDALSTEL | NEUTRAL     | NEUTRAL     | Strong Trend |
+| MOIL       | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| ICICIGI    | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| FINCABLES  | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| SBIN       | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| ICICIBANK  | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| HDFCLIFE   | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| AXISBANK   | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| HDFC       | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| LALPATHLAB | NEUTRAL     | NEUTRAL     | Strong Trend |
+| INDIACEM   | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| DIXON      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| HAVELLS    | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| INFY       | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| LT         | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| ASTRAL     | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| HDFCBANK   | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| ULTRACEMCO | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| OBEROIRLTY | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| TNPETRO    | NEUTRAL     | NEUTRAL     | Strong Trend |
+| ORIENTELEC | NEUTRAL     | NEUTRAL     | Strong Trend |
+| GRASIM     | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| EXIDEIND   | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| REDINGTON  | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| LUPIN      | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| SUNPHARMA  | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| ESCORTS    | NEUTRAL     | NEUTRAL     | Strong Trend |
+| APOLLOTYRE | NEUTRAL     | NEUTRAL     | Strong Trend |
+| TATAPOWER  | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| BHARATFORG | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| DIVISLAB   | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| APOLLOHOSP | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| PNB        | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| ISEC       | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| ASIANPAINT | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| PEL        | NEUTRAL     | NEUTRAL     | Weak Trend   |
+| TATACHEM   | SELL        | NEUTRAL     | Strong Trend |
+| TITAN      | SELL        | NEUTRAL     | Strong Trend |
+| BAJAJFINSV | SELL        | NEUTRAL     | Weak Trend   |
+| COALINDIA  | SELL        | NEUTRAL     | Weak Trend   |
+| RAYMOND    | SELL        | NEUTRAL     | Weak Trend   |
+| MARUTI     | STRONG_BUY  | NEUTRAL     | Strong Trend |
+| EICHERMOT  | STRONG_BUY  | NEUTRAL     | Strong Trend |
+| BERGEPAINT | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| WIPRO      | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| CIPLA      | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| TATAMOTORS | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| HINDCOPPER | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| TECHM      | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| ANDHRAPET  | STRONG_SELL | NEUTRAL     | Strong Trend |
+| VEDL       | STRONG_SELL | NEUTRAL     | Strong Trend |
+| DELTACORP  | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| THYROCARE  | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| FSL        | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| NMDC       | STRONG_SELL | NEUTRAL     | Strong Trend |
+| TATASTEEL  | STRONG_SELL | NEUTRAL     | Strong Trend |
+| JSWENERGY  | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| GAIL       | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| KOTAKBANK  | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| FINPIPE    | STRONG_SELL | NEUTRAL     | Weak Trend   |
+| BOSCHLTD   | STRONG_BUY  | OVERBROUGHT | Strong Trend |
+| BRITANNIA  | STRONG_BUY  | OVERBROUGHT | Weak Trend   |
+| BANKBARODA | SELL        | SELL        | Weak Trend   |
+| GEOJITFSL  | STRONG_SELL | SELL        | Strong Trend |
+| TCS        | STRONG_SELL | SELL        | Weak Trend   |
+| PIIND      | BUY         | STRONG_BUY  | Weak Trend   |
+| MARICO     | BUY         | STRONG_BUY  | Weak Trend   |
+| IDFC       | BUY         | STRONG_BUY  | Strong Trend |
+| DABUR      | BUY         | STRONG_BUY  | Weak Trend   |
+| PIDILITIND | BUY         | STRONG_BUY  | Weak Trend   |
+| ACC        | BUY         | STRONG_BUY  | Strong Trend |
+| CHOLAFIN   | BUY         | STRONG_BUY  | Weak Trend   |
+| PGHH       | BUY         | STRONG_BUY  | Weak Trend   |
+| CROMPTON   | BUY         | STRONG_BUY  | Weak Trend   |
+| MUTHOOTFIN | BUY         | STRONG_BUY  | Strong Trend |
+| UTIAMC     | BUY         | STRONG_BUY  | Weak Trend   |
+| SHREECEM   | BUY         | STRONG_BUY  | Strong Trend |
+| MINDACORP  | STRONG_BUY  | STRONG_BUY  | Strong Trend |
+| COROMANDEL | STRONG_BUY  | STRONG_BUY  | Weak Trend   |
+| HEROMOTOCO | STRONG_BUY  | STRONG_BUY  | Strong Trend |
+| ADANIENT   | STRONG_BUY  | STRONG_BUY  | Weak Trend   |
+| BALKRISIND | STRONG_BUY  | STRONG_BUY  | Weak Trend   |
+| NESTLEIND  | STRONG_BUY  | STRONG_BUY  | Weak Trend   |
+| UBL        | STRONG_BUY  | STRONG_BUY  | Weak Trend   |
+| HINDUNILVR | STRONG_BUY  | STRONG_BUY  | Weak Trend   |
+| GODREJCP   | STRONG_BUY  | STRONG_BUY  | Weak Trend   |
+| AMBUJACEM  | STRONG_BUY  | STRONG_BUY  | Weak Trend   |
+| SRTRANSFIN | STRONG_BUY  | STRONG_BUY  | Strong Trend |
+| TORNTPHARM | STRONG_BUY  | STRONG_BUY  | Strong Trend |
+| ABBOTINDIA | STRONG_BUY  | STRONG_BUY  | Strong Trend |
+| PAGEIND    | STRONG_BUY  | STRONG_BUY  | Weak Trend   |
+| EIDPARRY   | STRONG_BUY  | STRONG_BUY  | Weak Trend   |
+| BAJAJ_AUTO | SELL        | STRONG_SELL | Weak Trend   |
+| BEL        | SELL        | STRONG_SELL | Weak Trend   |
+| SRF        | SELL        | STRONG_SELL | Weak Trend   |
+| ALKYLAMINE | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| KIRLFER    | STRONG_SELL | STRONG_SELL | Strong Trend |
+| COFORGE    | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| IEX        | STRONG_SELL | STRONG_SELL | Strong Trend |
+| VOLTAS     | STRONG_SELL | STRONG_SELL | Strong Trend |
+| RELIANCE   | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| MPHASIS    | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| JSWSTEEL   | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| MINDTREE   | STRONG_SELL | STRONG_SELL | Weak Trend   |
+| DEEPAKNTR  | STRONG_SELL | STRONG_SELL | Weak Trend   |
