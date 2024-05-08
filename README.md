@@ -1,10 +1,11 @@
 # TradeIndicatorAnalysis
 
-This project contan 2 main reports
+This project contains 2 main reports
 
 eod_report - This fetch data from tradingview and yahoo finance. The report generate the STock list which we producing strong buy or sell signal. it also contains many useful technical and fundamental signals. The timeframe used are daily, weekly and monthly
     - Make sure you have path created under C:\Report or change it accordingly
     - It uses the previous day report for trend analysis.
+    - Report will also contain detailed csv file as attchment
 
 Sample output:
         Following stocks are new BUY:
@@ -39,3 +40,4 @@ Sample output:
     | LT       | 4h         | SELL    | SELL        | SELL   | SELL   | SELL    | SELL     | SELL     |    25 | 3429.1  | NA       | 3446.3 | 3484.4 | 3546   | 3607.7 | 3645.8 |
     | LT       | 1d         | SELL    | SELL        | SELL   | SELL   | SELL    | SELL     | BUY      |    20 | 3427.75 | -1.03    | 3402.7 | 3494.2 | 3642.2 | 3790.3 | 3881.8 |
     | LT       | 1W         | SELL    | NEUTRAL     | SELL   | SELL   | BUY     | BUY      | BUY      |    33 | 3427.75 | -2.06    | 2119.8 | 2474.2 | 3048   | 3621.7 | 3976.2 |
+    
